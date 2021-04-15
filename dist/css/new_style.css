@@ -1,0 +1,23 @@
+.main-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#organizers-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#organizers-column {
+    width: 30px;
+}

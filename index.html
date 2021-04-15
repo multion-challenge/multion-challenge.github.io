@@ -6,6 +6,7 @@
     <title>MultiON EAI Challenge CVPR 2021</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/new_style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <style>
         .column {
@@ -14,7 +15,6 @@
             padding: 5px;
             }
 
-            /* Clearfix (clear floats) */
             .row::after {
             content: "";
             clear: both;
@@ -44,8 +44,8 @@
                 <div class="container-sm">
                     <div class="hero-inner">
                         <h1 class="hero-title h2-mobile mt-0 is-revealing">MultiON Challenge for Embodied AI Workshop, CVPR 2021</h1>
-                        <div>
-                            <iframe width="800" height="400" src="https://www.youtube.com/embed/yqTlHNIcgnY" frameborder="0" allowfullscreen></iframe>
+                        <div class="main-video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yqTlHNIcgnY" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -87,22 +87,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- <section class="phases section text-left has-top-divider">
-                <div class="container">
-                    <div class="participation-inner section-inner">
-                        <h2 class="section-title mt-0">Challenge Phases</h2>
-                        There are three phases in the challenge.
-                        <h3 class="section-title mt-8">Phase 1: Minival</h3>
-                        This phase evaluates MultiON agents on the val set of the MultiON dataset. The results from this phase are not visible on the leaderboard. This phase is meant to be used for sanity checking the results of remote evaluation against your local evaluations.
-                        <h3 class="section-title mt-8">Phase 2: Test-Standard</h3>
-                        This results of this phase will be used to prepare the public leaderboard. We suggest using this phase for reporting results in papers and for comparing with other methods. Each team is allowed a maximum of 1 submission per day for this phase.
-                        <h3 class="section-title mt-8">Phase 3: Test-Challenge</h3>
-                        Only submissions made in this phase are considered as entries to the <strong>MultiON Challenge</strong> since this will be used to decide the winners. Each team is allowed a total of 3 submissions to this phase until the end of this phase.
-                        </div>
-                    </div>
-                </div>
-            </section> -->
 
             <section class="citation section text-left has-top-divider">
                 <div class="container">
@@ -183,46 +167,46 @@
                     <div class="organizers-inner section-inner">
                         
                         <h2 class="section-title mt-0">Organizers</h2>
-                            <div class="row">
-                                <div class="column">
+                            <div class="row" id="organizers-container">
+                                <div class="organizers-column">
                                     <a href="https://saimwani.github.io/">
-                                        <img src="images/saim.jpeg" alt="Saim Wani" style="width:100%">
+                                        <img src="images/saim.jpeg" alt="Saim Wani" style="width:200px">
                                     </a>
                                     <div class="text-center">
                                         <a href="https://saimwani.github.io/">Saim Wani</a><br>
                                         IIT Kanpur
                                     </div>
                                 </div>
-                                <div class="column">
+                                <div class="organizers-column">
                                     <a href="https://shivanshpatel35.github.io/">
-                                        <img src="images/shivansh.jpg" alt="Shivansh Patel" style="width:100%">
+                                        <img src="images/shivansh.jpg" alt="Shivansh Patel" style="width:200px">
                                     </a>
                                     <div class="text-center">
                                         <a href="https://shivanshpatel35.github.io/">Shivansh Patel</a><br>
                                         IIT Kanpur, SFU
                                     </div>
                                 </div>
-                                <div class="column">
+                                <div class="organizers-column">
                                     <a href="https://unnat.github.io/">
-                                        <img src="images/unnat.jpeg" alt="Unnat Jain" style="width:100%">
+                                        <img src="images/unnat.jpeg" alt="Unnat Jain" style="width:200px">
                                     </a>
                                     <div class="text-center">
                                         <a href="https://unnat.github.io/">Unnat Jain</a><br>
                                         UIUC
                                     </div>
                                 </div>
-                                <div class="column">
+                                <div class="organizers-column">
                                     <a href="https://angelxuanchang.github.io/">
-                                        <img src="images/angel.jpg" alt="Angel X. Chang" style="width:100%">
+                                        <img src="images/angel.jpg" alt="Angel X. Chang" style="width:200px">
                                     </a>
                                     <div class="text-center">
                                         <a href="https://angelxuanchang.github.io/">Angel X. Chang</a><br>
                                         SFU
                                     </div>
                                 </div>
-                                <div class="column">
+                                <div class="organizers-column">
                                     <a href="https://msavva.github.io/">
-                                        <img src="images/manolis.jpg" alt="Manolis Savva" style="width:100%">
+                                        <img src="images/manolis.jpg" alt="Manolis Savva" style="width:200px">
                                     </a>
                                     <div class="text-center">
                                         <a href="https://msavva.github.io/">Manolis Savva</a><br>
