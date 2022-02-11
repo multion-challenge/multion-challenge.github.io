@@ -72,20 +72,71 @@
                 </div>
             </section>
             
+            <section class="citation section text-left">
+                <div class="container">
+                    <div class="participation-inner section-inner">
+                        
+                        <h2 class="section-title mt-0">Dates</h2>
+                            <div>
+                                <table class="dates-table">
+                                    <tr>
+                                        <td>Challenge starts <br>(Dataset and starter code available and <br>EvalAI opens up for Minival Phase submissions)</td>
+                                        <td>February 21, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Leaderboard opens <br>(Test Standard Phase and <br>Test Challenge Phase submissions)</td>
+                                        <td>March 1, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Challenge submission deadline</td>
+                                        <td>May 31, 2022 (AoE)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Winner announcement at <a href="https://embodied-ai.org/">Embodied AI Workshop, CVPR 2022</a></td>
+                                        <td>June, 2022</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
             <section class="task section text-left">
                 <div class="container">
                     <div class="section-inner">
                         <h2 class="section-title mt-0">Task</h2>
-                        In MultiON, an agent is tasked with navigating to a sequence of objects. These objects are flexibly inserted into a realistic 3D environment. The task is based on the <a href="http://aihabitat.org/">Habitat platform</a> and <a href="https://matterport.com/partners/facebook">Habitat-Matterport 3D (HM3D)</a> scenes. 
-                        <br>
-                        This year the challenge has two separate tracks. One track contains target objects randomly sampled from a set of 8 cylinders with identical shapes but different colors.
-                        A second track contains target objects randomly sampled from a set of 8 realistic 3D objects.
-                        Both the tracks contain five target objects in contrast to three from last year's challenge.
-                        Additionally, there are some distractor (non-target) objects randomly scattered around the environment, to increase the difficulty of the task.
+                        In MultiON, an agent is tasked with navigating to a sequence of objects. These objects are flexibly inserted into a realistic 3D environment. The task is based on the <a href="http://aihabitat.org/">Habitat platform</a> and <a href="https://aihabitat.org/datasets/hm3d">Habitat-Matterport 3D (HM3D)</a> scenes. 
+                        <br><br>
+                        This year the challenge has two separate tracks. 
+                        <ul>
+                            <li> 
+                                <strong>CYLINDER Track </strong>
+                                <p>
+                                    Each episode contains 5 target objects randomly sampled from a set of 8 cylinders with identical shapes but different colors.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>REAL-OBJECTS Track</strong>
+                                <p>
+                                    Each episode contains 5 target objects randomly sampled from a set of 8 realistic looking 3D objects.
+                                </p>
+                            </li>
+                        </ul>
                         
-                        <br>
-                        In each episode, the agent is initialized at a random starting position and orientation in an unseen environment and provided a sequence of target objects randomly sampled (without replacement) from the set of 8 objects. The agent must navigate to each object in the sequence (in the given order) and enact the FOUND action to indicate discovery.
-                        <br>
+                        Additionally, there are some other changes from last year.
+                        <ul>
+                            <li>
+                            Both the tracks contain five target objects (5ON) in contrast to three (3ON) from last year's challenge.
+                            </li>
+                            <li>
+                            The episodes contain some distractor (non-target) objects randomly scattered around the environment, to increase the difficulty of the task.
+                            </li>
+                        </ul>
+                        
+                        In summary, in each episode, the agent is initialized at a random starting position and orientation in an unseen environment and provided a sequence of 5 target objects randomly sampled (without replacement) from the set of 8 objects. The agent must navigate to each target object in the sequence (in the given order), avoiding distractor objects and enact the FOUND action to indicate discovery.
                         The agent has access to an RGB-D camera and a noiseless GPS+Compass sensor. GPS+Compass sensor provides the agent's current location and orientation information relative to the start of the episode.
                         </div>
                     </div>
@@ -139,7 +190,9 @@
                 <div class="container">
                     <div class="participation-inner section-inner">
                         <h2 class="section-title mt-0">Terms and Conditions</h2>
-                        The Habitat-Sim is released under <a href="https://github.com/facebookresearch/habitat-sim/blob/master/LICENSE">MIT license</a>. The HM3D dataset is released under <a href="http://dovahkiin.stanford.edu/matterport/public/MP_TOS.pdf">Matterport3D Terms of use</a>. If you use Habitat-Sim or the MultiON dataset in a paper, please consider citing the following publications:
+                        The Habitat-Sim is released under <a href="https://github.com/facebookresearch/habitat-sim/blob/master/LICENSE" target="_blank">MIT license</a>. 
+                        To use HM3D dataset, please refer <a href="https://aihabitat.org/datasets/hm3d" target="_blank">here</a>. 
+                        If you use Habitat-Sim or the MultiON dataset in a paper, please consider citing the following publications:
                         <div>
 <pre style="background-color: rgb(189, 211, 207);">
 <code style="background-color: rgb(189, 211, 207); color: black">@inproceedings{habitat19iccv,
@@ -156,38 +209,6 @@
     }</code></pre>
                         </div>
 
-                    </div>
-                </div>
-            </section>
-
-            <section class="citation section text-left">
-                <div class="container">
-                    <div class="participation-inner section-inner">
-                        
-                        <h2 class="section-title mt-0">Dates</h2>
-                            <div>
-                                <table style="text-align:center">
-                                    <tr>
-                                        <td>Challenge starts</td>
-                                        <td>February 21, 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Leaderboard opens</td>
-                                        <td>March 1, 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Challenge submission deadline</td>
-                                        <td>May 31, 2022 (AoE)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Winner announcement at <a href="https://embodied-ai.org/">Embodied AI Workshop, CVPR 2022</a></td>
-                                        <td>June, 2022</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            
-                        </div>
-                        
                     </div>
                 </div>
             </section>
@@ -213,7 +234,7 @@
                                     </a>
                                     <div class="text-center">
                                         <a href="https://www.tommasocampari.com/">Tommaso Campari</a><br>
-                                        SFU, University of Padova, FBK
+                                        SFU, U of Padova, FBK
                                     </div>
                                 </div>
                                 <div class="organizers-column">

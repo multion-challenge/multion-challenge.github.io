@@ -19,7 +19,12 @@ iframe{
 }
 
 #organizers-column {
-    width: 30px;
+    width: 25%;
+}
+
+.dates-table {
+    width: 70%;
+    text-align:left;
 }
 
 .navbar {
