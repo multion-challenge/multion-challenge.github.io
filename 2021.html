@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MultiON EAI Challenge CVPR 2022</title>
+    <title>MultiON EAI Challenge CVPR 2021</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="dist/css/new_style.css">
@@ -51,7 +51,7 @@
                             Multi-Object Navigation (MultiON) Challenge
                         </h1>
                         <div>
-                        Held in conjunction with the <a href="https://embodied-ai.org/" target="_blank">Embodied AI Workshop</a> at CVPR 2022
+                        Held in conjunction with the CVPR 2021 <a href="https://embodied-ai.org/cvpr2021" target="_blank">Embodied AI Workshop</a>
                         </div>
                         <br>
                         <div class="main-video">
@@ -66,7 +66,7 @@
                 <div class="container">
                     <div class="overview-inner section-inner has-top-divider">
                         <h2 class="section-title mt-0 has-top-divider">Overview</h2>
-                        Multi-Object Navigation (MultiON) challenge is hosted at Embodied AI workshop, CVPR 2022. This challenge is built upon the task introduced in <a href="https://shivanshpatel35.github.io/multi-ON/">MultiON: Benchmarking Semantic Map Memory using Multi-Object Navigation</a> (NeurIPS 2020). MultiON is a long-horizon generalization of the object-navigation task i.e. where the agent has to navigate to multiple goals.
+                        Multi-Object Navigation (MultiON) challenge is hosted at Embodied AI workshop, CVPR 2021. This challenge is built upon the task introduced in <a href="https://shivanshpatel35.github.io/multi-ON/">MultiON: Benchmarking Semantic Map Memory using Multi-Object Navigation</a> (NeurIPS 2020). MultiON is a long-horizon generalization of the object-navigation task i.e. where the agent has to navigate to multiple goals.
                         </div>
                     </div>
                 </div>
@@ -76,11 +76,7 @@
                 <div class="container">
                     <div class="section-inner">
                         <h2 class="section-title mt-0">Task</h2>
-                        In MultiON, an agent is tasked with navigating to a sequence of objects. These objects are flexibly inserted into a realistic 3D environment. The task is based on the <a href="http://aihabitat.org/">Habitat platform</a> and <a href="https://matterport.com/partners/facebook">Habitat-Matterport 3D (HM3D)</a> scenes. 
-                        <br>
-                        This year the challenge has two separate tracks. One track contains target objects randomly sampled from a set of 8 cylinders with identical shapes but different colors.
-                        A second track contains target objects randomly sampled from a set of 8 realistic 3D objects.
-                        Additionally, there are some distractor (non-target) objects randomly scattered around the environment, to increase the difficulty of the task.
+                        In MultiON, an agent is tasked with navigating to a sequence of objects. These objects are flexibly inserted into a realistic 3D environment. The task is based on the <a href="http://aihabitat.org/">Habitat platform</a> and <a href="https://niessner.github.io/Matterport/">Matterport3D scenes</a>. For easy identification, the target objects are randomly sampled from a set of 8 cylinders with identical shapes but different colors.
                         <br>
                         In each episode, the agent is initialized at a random starting position and orientation in an unseen environment and provided a sequence of target objects randomly sampled (without replacement) from the set of 8 objects. The agent must navigate to each object in the sequence (in the given order) and enact the FOUND action to indicate discovery.
                         <br>
@@ -106,14 +102,14 @@
                 <div class="container">
                     <div class="participation-inner section-inner">
                         <h2 class="section-title mt-0">Submission Guidelines</h2>
-                            Participants must make submission through our <a href="https://eval.ai/web/challenges/challenge-page/1595/overview">EvalAI</a> page. There are three phases in the challenge.
+                            Participants must make submission through our <a href="https://eval.ai/web/challenges/challenge-page/805/overview">EvalAI</a> page. There are three phases in the challenge.
                             <h4 class="section-title mt-8">Phase 1: Minival</h3>
                             This phase evaluates MultiON agents on the val set of the MultiON dataset. The results from this phase are not visible on the leaderboard. This phase is meant to be used for sanity checking the results of remote evaluation against your local evaluations.
                             <h4 class="section-title mt-8">Phase 2: Test-Standard</h3>
                             This results of this phase will be used to prepare the public leaderboard. We suggest using this phase for reporting results in papers and for comparing with other methods. Each team is allowed a maximum of 1 submission per day for this phase.
                             <h4 class="section-title mt-8">Phase 3: Test-Challenge</h3>
                             Only submissions made in this phase are considered as entries to the <strong>MultiON Challenge</strong> since this will be used to decide the winners. Each team is allowed a total of 3 submissions to this phase until the end of this phase. <br><br>
-                            For detailed submission instruction, please refer <a href="https://github.com/3dlg-hcvc/multion-challenge">this</a>.
+                            For detailed submission instruction, please refer <a href="https://github.com/saimwani/multion-challenge">this</a>.
                             </div>
                     </div>
                 </div>
@@ -124,8 +120,8 @@
                     <div class="participation-inner section-inner">
                         <h2 class="section-title mt-0">Challenge Updates</h2>
                             Any updates related to the challenge will be posted here. You can also join our Google Group email list to receive
-                            updates: <a href="https://groups.google.com/g/multion-challenge-2022/">click here</a> to join or send an email to 
-                            <a href="mailto:multion-challenge-2022+subscribe@googlegroups.com?&subject=Subscribe to email list&body=Subscribe">multion-challenge-2022+subscribe@googlegroups.com</a>.
+                            updates: <a href="https://groups.google.com/g/multion-challenge-2021/">click here</a> to join or send an email to 
+                            <a href="mailto:multion-challenge-2021+subscribe@googlegroups.com?&subject=Subscribe to email list&body=Subscribe">multion-challenge-2021+subscribe@googlegroups.com</a>.
                             </div>
                     </div>
                 </div>
@@ -137,7 +133,7 @@
                 <div class="container">
                     <div class="participation-inner section-inner">
                         <h2 class="section-title mt-0">Terms and Conditions</h2>
-                        The Habitat-Sim is released under <a href="https://github.com/facebookresearch/habitat-sim/blob/master/LICENSE">MIT license</a>. The HM3D dataset is released under <a href="http://dovahkiin.stanford.edu/matterport/public/MP_TOS.pdf">Matterport3D Terms of use</a>. If you use Habitat-Sim or the MultiON dataset in a paper, please consider citing the following publications:
+                        The Habitat-Sim is released under <a href="https://github.com/facebookresearch/habitat-sim/blob/master/LICENSE">MIT license</a>. The Matterport3D dataset is released under <a href="http://dovahkiin.stanford.edu/matterport/public/MP_TOS.pdf">Matterport3D Terms of use</a>. If you use Habitat-Sim or the MultiON dataset in a paper, please consider citing the following publications:
                         <div>
 <pre style="background-color: rgb(189, 211, 207);">
 <code style="background-color: rgb(189, 211, 207); color: black">@inproceedings{habitat19iccv,
@@ -167,19 +163,19 @@
                                 <table style="text-align:center">
                                     <tr>
                                         <td>Challenge starts</td>
-                                        <td>February 21, 2022</td>
+                                        <td>February 17, 2021</td>
                                     </tr>
                                     <tr>
                                         <td>Leaderboard opens</td>
-                                        <td>March 1, 2022</td>
+                                        <td>March 1, 2021</td>
                                     </tr>
                                     <tr>
                                         <td>Challenge submission deadline</td>
-                                        <td>May 31, 2022 (AoE)</td>
+                                        <td>May 31, 2021 (AoE)</td>
                                     </tr>
                                     <tr>
-                                        <td>Winner announcement at <a href="https://embodied-ai.org/">Embodied AI Workshop, CVPR 2022</a></td>
-                                        <td>June, 2022</td>
+                                        <td>Winner announcement at <a href="https://embodied-ai.org/">Embodied AI Workshop, CVPR 2021</a></td>
+                                        <td>June, 2021</td>
                                     </tr>
                                 </table>
                             </div>
@@ -190,6 +186,75 @@
                 </div>
             </section>
 
+
+            <section class="citation section text-left has-top-divider">
+                <div class="container">
+                    <div class="section-inner">
+                        <h2 class="section-title mt-0">Challenge Results</h2>
+                            <strong>Challenge workshop talk:</strong><br>
+                            <div style="text-align:center; padding: 20px 0px 30px 0px">
+                                <iframe style="width: 500px; height: 300px; position: relative;" src="https://www.youtube.com/embed/ghX5UDWD1HU" allowfullscreen></iframe>
+                            </div>
+                            
+                            <strong>Challenge Leaderboard:</strong>
+                            <div style="padding: 20px 0px 30px 0px">
+                                <table style="text-align:center; width: 60%; position:relative; margin:auto;">
+                                    <tr>
+                                        <td><strong>Rank</strong></td>
+                                        <td><strong>Team</strong></td>
+                                        <td><strong>Progress</strong></td>
+                                        <td><strong>PPL</strong></td>
+                                        <td><strong>Success</strong></td>
+                                        <td><strong>SPL</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Lyon</td>
+                                        <td>67</td>
+                                        <td>44</td>
+                                        <td>55</td>
+                                        <td>35</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>SGoLAM</td>
+                                        <td>64</td>
+                                        <td>38</td>
+                                        <td>52</td>
+                                        <td>32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>VIMP</td>
+                                        <td>57</td>
+                                        <td>36</td>
+                                        <td>41</td>
+                                        <td>26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            
+                            <strong>1st place: Team Lyon</strong>, <em>Pierre Marza, Laetitia Matignon, Olivier Simonin, Christian Wolf</em>, Learning mapping and spatial reasoning with auxiliary tasks [<a href="https://arxiv.org/abs/2107.06011">Paper</a>].<br>
+                            <div style="text-align:center; padding: 20px 0px 30px 0px">
+                                <iframe style="width: 500px; height: 300px; position: relative;" src="https://www.youtube.com/embed/boDaAORoKho" allowfullscreen></iframe>
+                            </div>
+                            
+                            <strong>2nd place: Team SGoLAM</strong>, <em>Junho Kim, Eun Sun Lee, Mingi Lee, Dongsu Zhang, Young Min Kim</em>, Simultaneous goal localization and mapping.<br>
+                            <div style="text-align:center; padding: 20px 0px 30px 0px">
+                                <iframe style="width: 500px; height: 300px; position: relative;" src="https://www.youtube.com/embed/XgT2w6rUwjM" allowfullscreen></iframe>
+                            </div>
+                            
+                            <strong>3rd place: Team VIMP</strong>, <em>Tommaso Campari, Luciano Serafini, Lamberto Ballan</em>, A memory driven approach for the multi-object navigation task.<br>
+                            <div style="text-align:center; padding: 20px 0px 30px 0px">
+                                <iframe style="width: 500px; height: 300px; position: relative;" src="https://www.youtube.com/embed/AIbVRo4xIh8" allowfullscreen></iframe>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+
             <section class="organizers section text-left">
                 <div class="container">
                     <div class="organizers-inner section-inner">
@@ -197,21 +262,30 @@
                         <h2 class="section-title mt-0">Organizers</h2>
                             <div class="row" id="organizers-container">
                                 <div class="organizers-column">
-                                    <a href="https://sonia-raychaudhuri.github.io/">
-                                        <img src="images/sonia.jpg" alt="Sonia Raychaudhuri" style="width:200px">
+                                    <a href="https://saimwani.github.io/">
+                                        <img src="images/saim.jpeg" alt="Saim Wani" style="width:200px">
                                     </a>
                                     <div class="text-center">
-                                        <a href="https://sonia-raychaudhuri.github.io/">Sonia Raychaudhuri</a><br>
-                                        SFU
+                                        <a href="https://saimwani.github.io/">Saim Wani</a><br>
+                                        IIT Kanpur
                                     </div>
                                 </div>
                                 <div class="organizers-column">
-                                    <a href="https://www.tommasocampari.com/">
-                                        <img src="images/campari.jpg" alt="Tommaso Campari" style="width:200px">
+                                    <a href="https://shivanshpatel35.github.io/">
+                                        <img src="images/shivansh.jpg" alt="Shivansh Patel" style="width:200px">
                                     </a>
                                     <div class="text-center">
-                                        <a href="https://www.tommasocampari.com/">Tommaso Campari</a><br>
-                                        SFU, University of Padova
+                                        <a href="https://shivanshpatel35.github.io/">Shivansh Patel</a><br>
+                                        IIT Kanpur, SFU
+                                    </div>
+                                </div>
+                                <div class="organizers-column">
+                                    <a href="https://unnat.github.io/">
+                                        <img src="images/unnat.jpeg" alt="Unnat Jain" style="width:200px">
+                                    </a>
+                                    <div class="text-center">
+                                        <a href="https://unnat.github.io/">Unnat Jain</a><br>
+                                        UIUC
                                     </div>
                                 </div>
                                 <div class="organizers-column">
