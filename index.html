@@ -3,7 +3,35 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Project page for MultiON EAI Challenge CVPR 2022.">
+    <meta name="author" content="SFU">
+    <meta name="keywords"
+        content="embodied ai workshop, vision navigation, multion, multion challenge, cvpr 2022 ">
+    
     <title>MultiON EAI Challenge CVPR 2022</title>
+
+    <!--FACEBOOK-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://multion-challenge.cs.sfu.ca" />
+    <meta property="og:title" content="MultiON EAI Challenge CVPR 2022" />
+    <meta property="og:description"
+        content="Project page for MultiON EAI Challenge CVPR 2022." />
+
+    <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MultiON EAI Challenge CVPR 2022" />
+    <meta name="twitter:description"
+        content="Project page for MultiON EAI Challenge CVPR 2022." />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="dist/css/new_style.css">
@@ -58,29 +86,35 @@
                 </div>
             </section>
 
-            <section class="videos section text-center">
-                <div style="width:80%;margin-left:10%">
-                    <div class="main-video" style="float:left;">
-                        <image src="videos/cyl_rgb.gif" alt="task-video" style="float:left;"></image>
-                        <image src="videos/map.gif" alt="task-video" style="float:right;"></image>
-                        <figcaption class="text-center">
+            <div class="row">
+                <div class="has-top-divider">&nbsp;</div>
+                <div class="col-lg-9 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 text-center">
+                        <image src="videos/cyl_rgb.gif" class="img-fluid img-thumbnail rounded" alt="cylinder-track"></image>
+                        <figcaption class="text-center gif-img-caption">
                             CYLINDER Track
                         </figcaption>
                     </div>
-                    <div class="main-video" style="float:right;">
-                        <image src="videos/real_rgb.gif" alt="task-video" style="float:left;"></image>
-                        <image src="videos/map.gif" alt="task-video" style="float:right;"></image>
-                        <figcaption class="text-center">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 text-center">
+                        <image src="videos/map.gif" class="img-fluid img-thumbnail rounded" alt="topdown-map"></image>
+                        <figcaption class="text-center gif-img-caption">
+                           &nbsp;
+                        </figcaption>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 text-center">
+                        <image src="videos/real_rgb.gif" class="img-fluid img-thumbnail rounded" alt="real-objects-track"></image>
+                        <figcaption class="text-center gif-img-caption">
                             REAL-OBJECTS Track
                         </figcaption>
                     </div>
                 </div>
-            </section>
-
+            </div>
+            
             <section class="overview section text-center">
+                <div class="has-top-divider">&nbsp;</div>
                 <div class="container">
-                    <div class="overview-inner section-inner has-top-divider">
-                        <h2 class="section-title mt-0 has-top-divider">Overview</h2>
+                    <div class="overview-inner section-inner">
+                        <h2 class="section-title mt-0">Overview</h2>
                         Multi-Object Navigation (MultiON) challenge is hosted at Embodied AI workshop, CVPR 2022. This challenge is built upon the task introduced in <a href="https://shivanshpatel35.github.io/multi-ON/">MultiON: Benchmarking Semantic Map Memory using Multi-Object Navigation</a> (NeurIPS 2020). MultiON is a long-horizon generalization of the object-navigation task i.e. where the agent has to navigate to multiple goals.
                         </div>
                     </div>
@@ -290,6 +324,11 @@
         </main>
 
     </div>
+     <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="dist/js/main.min.js"></script>
 </body>
 </html>
