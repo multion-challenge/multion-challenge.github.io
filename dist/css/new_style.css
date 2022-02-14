@@ -1,7 +1,18 @@
 .main-video {
     position: relative;
-    width: 100%;
-    padding-bottom: 50%;
+    width: 49%;
+    margin: 1px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(63, 62, 62, 0.747);
+}
+
+.main-video img{
+  width: 50%;
+  height: 250px;
+  border: 1px solid;
 }
 
 iframe{
