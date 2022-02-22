@@ -1,8 +1,20 @@
 
 .gif-img-caption{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: rgba(63, 62, 62, 0.747);
+}
+
+.goal-img{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(63, 62, 62, 0.747);
+}
+
+.goal-img .img-thumbnail {
+  border:0;
+  box-shadow:0;
+  border-radius:0;
 }
 
 iframe{
