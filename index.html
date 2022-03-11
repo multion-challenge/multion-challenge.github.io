@@ -32,41 +32,21 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="dist/css/new_style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <style>
-        .column {
-            float: left;
-            width: 20%;
-            padding: 5px;
-        }
-
-        .row::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-    </style>
-
+    
 </head>
 
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <div class="dropdown">
-                            <button class="dropbtn">Challenges
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="./index.html">2022</a>
-                                <a href="./2021.html">2021</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="btn-group" style="float:right;">
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Challenges
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./index.html">2022</a><br>
+                    <a class="dropdown-item" href="./2021.html">2021</a>
                 </div>
-            </div>
+              </div>
         </header>
 
         <main>
@@ -154,8 +134,8 @@
                         of the object-navigation task i.e. where the agent has to navigate to multiple goals.
                     </div>
                 </div>
-    </div>
-    </section>
+    
+            </section>
 
     <section class="citation section text-left">
         <div class="container">
@@ -188,7 +168,6 @@
 
             </div>
 
-        </div>
         </div>
     </section>
 
@@ -239,7 +218,6 @@
                 the agent's current location and orientation information relative to the start of the episode.
             </div>
         </div>
-        </div>
     </section>
 
     <section class="evaluation section text-left has-top-divider">
@@ -255,7 +233,6 @@
                 <strong>PPL</strong>: Progress weighted by path length. PPL quantifies the efficiency of agent's
                 trajectory with respect to the optimal trajectory.<br>
             </div>
-        </div>
         </div>
     </section>
 
@@ -295,7 +272,6 @@
                         href="https://github.com/3dlg-hcvc/multion-challenge">this</a>.
             </div>
         </div>
-        </div>
     </section>
 
     <section class="citation section text-left has-top-divider">
@@ -310,9 +286,7 @@
                     href="mailto:multion-challenge-2022+subscribe@googlegroups.com?&subject=Subscribe to email list&body=Subscribe">multion-challenge-2022+subscribe@googlegroups.com</a>.
             </div>
         </div>
-        </div>
     </section>
-
 
 
     <section class="citation section text-left">
@@ -402,7 +376,6 @@
             </div>
 
         </div>
-        </div>
     </section>
 
     </main>
@@ -412,8 +385,8 @@
         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="dist/js/main.min.js"></script>
 </body>
 
 </html>
