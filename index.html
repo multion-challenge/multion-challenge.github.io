@@ -81,9 +81,9 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center goal-img">
                                 Goals:&nbsp;
                                 <image src="videos/2023/highlighter.jpg" class="img-fluid img-thumbnail" style="width:40px;height:50px;"
-                                alt="real-goal-1"></image> ->
+                                alt="real-goal-1"></image> ⟶
                                 <image src="videos/2023/pedestal_fan.jpg" class="img-fluid img-thumbnail" style="width:50px;height:50px;"
-                                alt="real-goal-2"></image> ->
+                                alt="real-goal-2"></image> ⟶
                                 <image src="videos/2023/vacuum_cleaner.jpg" class="img-fluid img-thumbnail" style="width:50px;height:50px;"
                                 alt="real-goal-3"></image>
                             </div>
@@ -151,7 +151,7 @@
                     href="https://aihabitat.org/datasets/hm3d-semantics/">Habitat-Matterport 3D Semantics (HM3D-Semantics)</a> scenes.
                 <br><br>
                 Each episode contains 3 target objects randomly sampled from a set of 50 classes. For every class
-                there are multiple objects available (e.g., for the "notebook" class there are 9 different objects). This was done to add more variability to the episodes. We took the object meshes from <a href="https://shapenet.org">ShapeNet</a>.
+                there are multiple objects available (e.g., for the "notebook" class there are 9 different objects). We did this to add instance-level variation within each category and test the perception capabilities of the agents. We used 3D objects from <a href="https://shapenet.org">ShapeNet</a>.
                 
 
                 Additionally:
@@ -169,7 +169,7 @@
                 In summary, in each episode, the agent is initialized at a random starting position and orientation in
                 an unseen environment and provided a sequence of 3 target objects randomly sampled (without replacement)
                 from the set of 50 objects. The agent must navigate to each target object in the sequence (in the given
-                order), avoiding distractor objects and enact the FOUND action to indicate discovery.
+                order), avoiding distractor objects and and call the FOUND action to indicate discovery.
                 The agent has access to an RGB-D camera and a noiseless GPS+Compass sensor. GPS+Compass sensor provides
                 the agent's current location and orientation information relative to the start of the episode.
             </div>
@@ -220,12 +220,10 @@
         <div class="container">
             <div class="participation-inner section-inner">
                 <h2 class="section-title mt-0">Challenge Updates</h2>
-                Any updates related to the challenge will be posted here. You can also join our Google Group email list
-                to receive
-                updates: <a href="https://groups.google.com/g/multion-challenge-2023/">click here</a> to join or send an
+                Any updates related to the challenge will be posted here. Please join the Google Group email list to receive updates about the challenge: <a href="https://groups.google.com/g/multion-challenge-2022/">click here</a> to join or send an
                 email to
                 <a
-                    href="mailto:multion-challenge-2023+subscribe@googlegroups.com?&subject=Subscribe to email list&body=Subscribe">multion-challenge-2023+subscribe@googlegroups.com</a>.
+                    href="mailto:multion-challenge-2022+subscribe@googlegroups.com?&subject=Subscribe to email list&body=Subscribe">multion-challenge-2022+subscribe@googlegroups.com</a>.
             </div>
         </div>
     </section>
